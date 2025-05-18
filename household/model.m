@@ -51,8 +51,8 @@ classdef model
             par.NN = 3000; % Number of people.
 
         
-                    %% Load and process VHLSS data for Gt
-            par = model.load_vhlss_data(par);
+        	%% Load and process VHLSS data for Gt
+            par = model.load_vhlss_data(par); %(to calculate using simulate Gt, diable this line and insert this here:  par.Gt = model.create_synthetic_income_profile(par.T, par.tr, par.kappa);)
         end 
         %% Load and process VHLSS data
         function par = load_vhlss_data(par)
