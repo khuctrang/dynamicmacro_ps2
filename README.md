@@ -7,4 +7,5 @@ PART 1: household
 
   muc123a.csv, muc1c.csv, muc4a.csv are the data need to calculate the model
 
-  
+PART 2: firm
+  run_q, my_graph, solve, model, simulate are for the firm problem
